@@ -11,11 +11,11 @@ npm install react-native-barcode-reader
 ## Usage
 
 ```js
-import { multiply } from 'react-native-barcode-reader';
+import { scanQR } from 'react-native-barcode-reader';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await scanQR();
 ```
 
 ## Contributing
