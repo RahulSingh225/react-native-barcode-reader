@@ -1,17 +1,17 @@
-# react-native-barcode-reader
+# react-native-simple-barcode-reader
 
 A barcode reader for react-native
 
 ## Installation
 
 ```sh
-npm install react-native-barcode-reader
+npm install react-native-simple-barcode-reader
 ```
 
 ## Usage
 
 ```js
-import { scanQR } from 'react-native-barcode-reader';
+import { scanQR } from 'react-native-simple-barcode-reader';
 
 // ...
 
