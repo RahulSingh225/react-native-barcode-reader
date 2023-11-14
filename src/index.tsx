@@ -17,6 +17,6 @@ const BarcodeReader = NativeModules.BarcodeReader
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return BarcodeReader.multiply(a, b);
+export function scanQR(): Promise<number> {
+  return BarcodeReader.scanQR();
 }
